@@ -12,6 +12,9 @@ async function kiki(){var zizi = await db.friends.toArray();  mimi = zizi ;}
 
 
 </script>
+<svelte:head>
+<script src="https://js.instamojo.com/v2/button.js"></script>
+</svelte:head>
 
 <div class="container">
    <h1 class="chi">Lets Check Dexie Cloud !!!</h1>
@@ -29,6 +32,9 @@ async function kiki(){var zizi = await db.friends.toArray();  mimi = zizi ;}
 {#each mimi as item}
 		<li>{item.name}</li>
 	{/each}
+
+  
+
 
 <style>
   .chi{

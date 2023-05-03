@@ -7,7 +7,7 @@ import dexieCloud from "dexie-cloud-addon";
 
     db.cloud.configure({
     databaseUrl: "https://z9jpehi5y.dexie.cloud",
-    requireAuth: true
+    requireAuth: false
   });
 
    export {db};
